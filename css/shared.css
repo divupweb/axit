@@ -1,0 +1,24 @@
+.section-title {
+  text-transform: uppercase;
+  font-size: 36px;
+  line-height: 42px;
+  color: #212121;
+}
+.section-title::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: #e72424;
+  margin: 34px auto 34px;
+  width: 64px;
+}
+.section-desciption p {
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+  font-family: "Open Sans", sans-serif;
+}
+.section-wrap {
+  margin: 0 auto;
+  max-width: 1170px;
+}
