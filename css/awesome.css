@@ -1,6 +1,11 @@
 .awesome {
   text-align: center;
-  padding: 80px 15px 96px;
+  padding: 80px 0px 96px;
+}
+.awesome__row {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 15px;
 }
 .awesome__wrap {
   margin-top: 68px;
