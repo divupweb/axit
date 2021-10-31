@@ -1,0 +1,48 @@
+.axure {
+  text-align: center;
+  padding: 58px 0 38px;
+  background: black url(../img/axure-background.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.axure .shared-container {
+  z-index: 1;
+  position: relative;
+}
+.axure::after {
+  content: "";
+  display: block;
+  background-color: rgba(0, 0, 0, 0.55);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.axure .shared-part__title {
+  color: #ffffff;
+}
+.axure .shared-part__title::after {
+  background: #fff;
+}
+.axure__button {
+  margin: 57px 0 0 0;
+}
+.axure__button a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: capitalize;
+  padding: 11px 0;
+  border: 1px solid #fff;
+  display: block;
+  width: 135px;
+  margin: 0 auto;
+}
+.axure .shared-part__description p {
+  color: rgba(255, 255, 255, 0.8);
+}

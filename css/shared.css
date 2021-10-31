@@ -1,8 +1,14 @@
+.shared-container {
+  margin: 0 auto;
+  max-width: 1170px;
+  padding: 0 15px;
+}
 .shared-part__title {
   text-transform: uppercase;
   font-size: 36px;
   line-height: 42px;
   color: #212121;
+  font-weight: 400;
 }
 .shared-part__title::after {
   content: "";
@@ -12,7 +18,7 @@
   margin: 34px auto 34px;
   width: 64px;
 }
-.shared-part__desciption p {
+.shared-part__description p {
   font-size: 14px;
   line-height: 19px;
   color: #86878b;
