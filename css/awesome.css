@@ -2,23 +2,18 @@
   text-align: center;
   padding: 80px 0px 96px;
 }
-.awesome__row {
-  margin: 0 auto;
-  max-width: 1170px;
-  padding: 0 15px;
-}
 .awesome__wrap {
-  margin-top: 68px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin: 68px -15px 0;
 }
 .awesome__item {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 20px;
   flex-basis: 350px;
+  margin: 0 15px;
 }
 .awesome__item-image {
   border: 1px solid #e72424;

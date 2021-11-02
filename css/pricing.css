@@ -3,21 +3,17 @@
   padding: 80px 0 59px;
   background: #f5f5f5;
 }
-.pricing__row {
-  margin: 0 auto;
-  max-width: 1170px;
-  padding: 0 15px;
-}
 .pricing__wrap {
-  margin-top: 62px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin: 62px -15px 0;
 }
 .pricing__list {
   list-style: none;
   width: 340px;
+  margin: 0 15px;
 }
 .pricing__head {
   color: #ffffff;
