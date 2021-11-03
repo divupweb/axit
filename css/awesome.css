@@ -25,6 +25,10 @@
   align-items: center;
   justify-content: center;
 }
+.awesome__item-image i {
+  font-size: 24px;
+  color: orange;
+}
 .awesome__item-title {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;

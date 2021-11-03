@@ -1,0 +1,39 @@
+.social {
+  background: #f8efef;
+  padding: 14px 0 17px;
+}
+.social__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+}
+.social__information {
+  width: 365px;
+  margin: 0 15px;
+}
+.social__title {
+  color: #333333;
+  font-size: 20px;
+  line-height: 27px;
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+}
+.social__description {
+  margin-top: 14px;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878b;
+}
+.social .shared-links {
+  width: 684px;
+}
+.social .shared-links a {
+  color: #86878b;
+  font-size: 42px;
+  margin: 0 15px;
+}
+.social .shared-links a:hover {
+  color: #ec7979;
+}

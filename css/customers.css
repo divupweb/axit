@@ -43,8 +43,8 @@
   border-radius: 50%;
   width: 70px;
   height: 70px;
-  background: url(../img/person.jpeg) no-repeat;
-  background-size: cover;
+  overflow: hidden;
+  display: flex;
 }
 .customers__item-data {
   display: flex;

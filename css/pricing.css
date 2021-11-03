@@ -14,6 +14,12 @@
   list-style: none;
   width: 340px;
   margin: 0 15px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+.pricing__list:hover {
+  transform: translate(0, -20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 .pricing__head {
   color: #ffffff;

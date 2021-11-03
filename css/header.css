@@ -1,0 +1,48 @@
+.header {
+  padding: 15px 0;
+  background: black;
+}
+.header__logotype {
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 35px;
+  display: flex;
+  margin: 0 15px;
+}
+.header__logotype::after {
+  content: "it";
+  display: block;
+  color: #ec7979;
+}
+.header__nav {
+  margin: 0 15px;
+  width: 459px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.header__link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.7);
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  position: relative;
+  padding: 5px;
+  border-left: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  transition: border 0.3s ease;
+}
+.header__link:hover {
+  border-left: 3px solid #ec7979;
+  border-bottom: 3px solid #ec7979;
+}
+.header__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+}

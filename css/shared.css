@@ -24,3 +24,16 @@
   color: #86878b;
   font-family: "Open Sans", sans-serif;
 }
+.shared-links {
+  margin: 0 15px;
+}
+.shared-links__wrap {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -15px;
+}
+.shared-links a {
+  transition: color 0.5s ease;
+}
