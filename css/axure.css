@@ -40,7 +40,7 @@
   text-transform: capitalize;
   padding: 11px 0;
   border: 1px solid #fff;
-  animation: pulsating-button 2s ease;
+  animation: 1s pulsating-button ease-in-out infinite alternate;
   display: block;
 }
 .axure .shared-part__description p {
@@ -48,8 +48,15 @@
 }
 @keyframes pulsating-button {
   0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
   }
   100% {
-    padding: 11px 200px;
+    transform: scale(1.1);
   }
 }
