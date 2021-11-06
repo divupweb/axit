@@ -7,21 +7,16 @@
   text-transform: uppercase;
   font-size: 36px;
   line-height: 42px;
-  color: #212121;
   font-weight: 400;
 }
 .shared-part__title::after {
   content: "";
   display: block;
-  height: 2px;
-  background: #e72424;
-  margin: 34px auto 34px;
   width: 64px;
+  height: 1px;
 }
 .shared-part__description p {
-  font-size: 14px;
   line-height: 19px;
-  color: #86878b;
   font-family: "Open Sans", sans-serif;
 }
 .shared-links {
@@ -34,6 +29,63 @@
   flex-wrap: wrap;
   margin: 0 -15px;
 }
-.shared-links a {
+.shared-links__link a {
   transition: color 0.5s ease;
+}
+.shared-download-button {
+  width: 135px;
+  text-align: center;
+}
+.shared-download-button a {
+  font-family: "Open Sans", sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: capitalize;
+  padding: 11px 0;
+  border: 1px solid #fff;
+  animation: 1s pulsating-button ease-in-out infinite alternate;
+  display: block;
+}
+.shared-logotype {
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+}
+.shared-logotype::after {
+  content: "it";
+  display: block;
+  color: #ec7979;
+}
+
+.shared-fields__label {
+  display: block;
+  font-size: 14px;
+  color: #bdbdbd;
+  line-height: 19px;
+  cursor: pointer;
+  font-family: "Open Sans", sans-serif;
+}
+.shared-fields__field {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  outline: none;
+  font-size: 16px;
+}
+.shared-coral-button {
+  color: #fff;
+  background-color: #ec7979;
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  border: none;
+}
+.shared-coral-button:hover {
+  background-color: #e69494;
 }

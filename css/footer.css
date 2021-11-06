@@ -9,9 +9,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 317px;
+  margin: 0 -15px;
 }
 .footer .shared-links {
-  width: 317px;
+  width: 100%;
 }
 .footer .shared-links a {
   color: rgba(255, 255, 255, 0.8);

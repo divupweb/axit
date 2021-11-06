@@ -1,0 +1,54 @@
+.contact {
+  padding: 80px 0 44px;
+  text-align: center;
+}
+.contact__wrap {
+  margin-top: 95px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 95px -15px 0;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.contact .shared-part__title::after {
+  background-color: #e72424;
+  margin: 34px auto 34px;
+}
+.contact .shared-part__description p {
+  font-size: 14px;
+  color: #86878b;
+}
+.contact .shared-fields {
+  width: 478px;
+  text-align: left;
+  margin: 0 15px;
+}
+.contact .shared-fields__item {
+  margin-top: 31px;
+}
+.contact__text {
+  text-align: left;
+  width: 480px;
+  margin: 0 15px;
+  margin-top: 31px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact__message {
+  width: 100%;
+  resize: none;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  outline: none;
+  font-size: 16px;
+  flex-grow: 1;
+}
+.contact .shared-fields__field {
+  height: 32px;
+}
+.contact .shared-coral-button {
+  padding: 11px 31px;
+  margin-top: 80px;
+}

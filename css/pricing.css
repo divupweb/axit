@@ -58,3 +58,11 @@
   padding: 10px 0 11px;
   margin-top: 2px;
 }
+.pricing .shared-part__title::after {
+  background-color: #e72424;
+  margin: 34px auto 34px;
+}
+.pricing .shared-part__description p {
+  font-size: 14px;
+  color: #86878b;
+}

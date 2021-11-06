@@ -2,19 +2,6 @@
   padding: 15px 0;
   background: black;
 }
-.header__logotype {
-  color: white;
-  font-size: 30px;
-  text-transform: uppercase;
-  line-height: 35px;
-  display: flex;
-  margin: 0 15px;
-}
-.header__logotype::after {
-  content: "it";
-  display: block;
-  color: #ec7979;
-}
 .header__nav {
   margin: 0 15px;
   width: 459px;
@@ -45,4 +32,11 @@
   justify-content: space-between;
   margin: 0 -15px;
   flex-wrap: wrap;
+}
+.header .shared-logotype {
+  margin: 0 15px;
+}
+.header .shared-logotype {
+  font-size: 30px;
+  line-height: 35px;
 }

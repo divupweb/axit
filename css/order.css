@@ -1,0 +1,89 @@
+.order {
+  padding: 110px 0 120px 0;
+  background: black url(../img/order-background.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.order::after {
+  content: "";
+  display: block;
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.order__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -15px;
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 1;
+}
+.order__description {
+  width: 544px;
+  margin: 0 15px;
+}
+.order .shared-part__title {
+  color: #ffffff;
+}
+.order .shared-part__title::after {
+  background-color: #ffffff;
+  height: 1px;
+  margin: 32px 0 39px;
+}
+.order .shared-part__description p {
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.8);
+}
+.order .shared-download-button {
+  margin-top: 39px;
+}
+.order .shared-logotype {
+  font-size: 60px;
+  line-height: 70px;
+}
+.order .shared-part__title {
+  margin-top: 32px;
+}
+.order__form {
+  width: 370px;
+  background-color: #ffffff;
+  margin: 0 15px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.order__form-wrap {
+  padding: 25px 59px 0;
+}
+.order__form-title {
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 700;
+  color: #333333;
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+}
+.order__form-title span {
+  color: #ec7979;
+}
+.order .shared-fields__item {
+  margin-top: 19px;
+}
+.order .shared-fields {
+  margin-top: 50px;
+}
+.order .shared-coral-button {
+  margin-top: 61px;
+}
+.order .shared-coral-button {
+  width: 100%;
+  padding: 15px;
+}
+.order .shared-fields__field {
+  height: 16px;
+}
