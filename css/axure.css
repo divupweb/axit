@@ -33,6 +33,7 @@
 }
 .axure .shared-download-button {
   margin: 57px auto 0;
+  animation: 1s pulsating-button ease-in-out infinite alternate;
 }
 
 @keyframes pulsating-button {

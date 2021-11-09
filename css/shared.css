@@ -46,7 +46,7 @@
   text-transform: capitalize;
   padding: 11px 0;
   border: 1px solid #fff;
-  animation: 1s pulsating-button ease-in-out infinite alternate;
+
   display: block;
 }
 .shared-logotype {
@@ -75,7 +75,7 @@
   outline: none;
   font-size: 16px;
 }
-.shared-coral-button {
+.shared-form-button {
   color: #fff;
   background-color: #ec7979;
   font-size: 15px;
@@ -86,6 +86,6 @@
   transition: background 0.2s ease;
   border: none;
 }
-.shared-coral-button:hover {
+.shared-form-button:hover {
   background-color: #e69494;
 }
