@@ -8,7 +8,6 @@
   justify-content: space-between;
   align-items: center;
   margin: 95px -15px 0;
-  flex-wrap: wrap;
   align-items: stretch;
 }
 .contact .shared-part__title::after {
@@ -16,7 +15,7 @@
   margin: 34px auto 34px;
 }
 .contact .shared-part__description p {
-  font-size: 14px;
+  font-size: 0.87rem;
   color: #86878b;
 }
 .contact .shared-fields {
@@ -42,7 +41,7 @@
   border: none;
   border-bottom: 1px solid #bdbdbd;
   outline: none;
-  font-size: 16px;
+  font-size: 1rem;
   flex-grow: 1;
 }
 .contact .shared-fields__field {
@@ -51,4 +50,23 @@
 .contact .shared-form-button {
   padding: 11px 31px;
   margin-top: 80px;
+}
+@media screen and (max-width: 768px) {
+  .contact__wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .contact__wrap {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px -15px 0;
+  }
+  .contact .shared-part__title::after {
+    margin: 34px auto 17px;
+  }
+  .contact__message {
+    height: 150px;
+  }
 }

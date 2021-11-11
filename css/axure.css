@@ -29,7 +29,7 @@
 }
 .axure .shared-part__description p {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 14px;
+  font-size: 0.87rem;
 }
 .axure .shared-download-button {
   margin: 57px auto 0;
@@ -48,5 +48,15 @@
   }
   100% {
     transform: scale(1.1);
+  }
+}
+@media screen and (max-width: 768px) {
+  .axure .shared-part__title::after {
+    margin: 34px auto 17px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .axure .shared-download-button {
+    width: 100%;
   }
 }

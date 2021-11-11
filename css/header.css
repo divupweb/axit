@@ -1,6 +1,9 @@
 .header {
   padding: 15px 0;
   background: black;
+  position: sticky;
+  top: 0;
+  z-index: 2;
 }
 .header__nav {
   margin: 0 15px;
@@ -14,7 +17,7 @@
   color: rgba(255, 255, 255, 0.7);
   text-transform: capitalize;
   font-family: "Open Sans", sans-serif;
-  font-size: 15px;
+  font-size: 0.93rem;
   line-height: 20px;
   position: relative;
   padding: 5px;
@@ -35,8 +38,21 @@
 }
 .header .shared-logotype {
   margin: 0 15px;
-}
-.header .shared-logotype {
-  font-size: 30px;
+  font-size: 1.87rem;
   line-height: 35px;
+}
+.header__menu {
+  color: white;
+  font-size: 1.25rem;
+  cursor: pointer;
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  .header__nav {
+    display: none;
+  }
+  .header__menu {
+    display: block;
+    margin-right: 15px;
+  }
 }

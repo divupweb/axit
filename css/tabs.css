@@ -1,0 +1,128 @@
+.switch {
+  padding: 100px 0 50px;
+}
+.switch__title {
+  font-size: 1.85rem;
+  font-weight: 700;
+  line-height: 40px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 72px;
+}
+.switch .shared-form-button {
+  text-decoration: none;
+  font-size: 1.25rem;
+  padding: 15px;
+  display: block;
+  width: 270px;
+  text-align: center;
+  margin-top: 27px;
+}
+.switch__content {
+  padding: 45px 30px 50px 100px;
+}
+.switch__row {
+  display: flex;
+  border: 1px solid #c6cbcd;
+}
+.switch__image {
+  min-width: 470px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  overflow: hidden;
+
+  border-left: none;
+}
+.switch__image img {
+  height: 100%;
+}
+.switch__text {
+  margin-top: 27px;
+  line-height: 21px;
+  font-size: 1.25rem;
+}
+.switch__input {
+  display: none;
+}
+.switch__label {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.75rem;
+  padding: 10px 62px;
+  cursor: pointer;
+  text-transform: uppercase;
+  display: block;
+  transition: all 0.3s ease;
+  border-radius: 5px 5px 0 0;
+  border: 1px solid rgba(255, 255, 255, 0);
+  background-color: white;
+  border-bottom: 1px solid #c6cbcd;
+}
+.switch__label:hover {
+  color: #ec7979;
+}
+.switch__tabs {
+  display: flex;
+}
+.switch__tab {
+  white-space: nowrap;
+  text-align: center;
+  position: relative;
+  margin-left: 15px;
+  top: 1px;
+}
+.switch__tab:first-child {
+  margin-left: 0;
+}
+.switch__input:checked + .switch__label {
+  color: #ec7979;
+  border: 1px solid #c6cbcd;
+  border-bottom: 1px solid white;
+}
+@media screen and (max-width: 1024px) {
+  .switch__image {
+    min-width: 395px;
+  }
+  .switch__title {
+    line-height: 32px;
+  }
+  .switch__content {
+    padding: 32px 24px 35px 54px;
+  }
+  .switch__title {
+    margin-bottom: 70px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .switch__image {
+    display: none;
+  }
+  .switch__wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .switch__tabs {
+    display: flex;
+    justify-content: space-between;
+  }
+  .switch__content {
+    padding: 32px 20px 30px;
+    text-align: center;
+  }
+  .switch__title {
+    margin-bottom: 40px;
+  }
+  .switch .shared-form-button {
+    margin: 27px auto 0;
+    width: 235px;
+  }
+  .switch__label {
+    padding: 10px 0px;
+  }
+  .switch__label {
+    width: 100%;
+  }
+  .switch__tab {
+    width: 33%;
+    margin-left: 0;
+  }
+}
