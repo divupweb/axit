@@ -111,6 +111,9 @@
     display: flex;
     flex-direction: column;
   }
+  .order .shared-fields__item {
+    text-align: left;
+  }
 }
 @media screen and (max-width: 320px) {
   .order .shared-logotype {
